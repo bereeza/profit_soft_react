@@ -17,6 +17,8 @@ import LoginPage from 'pageProviders/Login';
 import PageContainer from 'pageProviders/components/PageContainer';
 import pageURLs from 'constants/pagesURLs';
 import SecretPage from 'pageProviders/Secret';
+import SongDetails from 'pageProviders/EntityDetails';
+import SongList from 'pageProviders/EntityList';
 import ThemeProvider from 'misc/providers/ThemeProvider';
 import UserProvider from 'misc/providers/UserProvider';
 
@@ -79,6 +81,15 @@ function App() {
                       element={<SecretPage />}
                       path={`${pageURLs[pages.secretPage]}`}
                     />
+                    <Route
+                        element={<SongList />}
+                        path={`${pageURLs[pages.songListPage]}`}
+                    />
+                    <Route
+                        element={<SongDetails />}
+                        path={`${pageURLs[pages.songDetailsPage]}`}
+                    />
+
                     <Route
                       element={(
                         <LoginPage

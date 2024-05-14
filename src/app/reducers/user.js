@@ -9,7 +9,7 @@ import {
   REQUEST_USER,
   SUCCESS_SIGN_IN,
   SUCCESS_SIGN_UP,
-} from '../constants/actionTypes';
+} from '../constants/userActionTypes';
 
 const initialState = {
   authorities: [],

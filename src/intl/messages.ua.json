@@ -4,6 +4,7 @@
   "page.default": "Головна",
   "page.login": "Логiн",
   "page.secret": "Секретна Сторiнка",
+  "page.song_list": "Лист Сутностей",
   "signIn": "Увiйти",
   "signOut": "Вийти"
 }

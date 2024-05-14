@@ -1,0 +1,7 @@
+{
+  "title": "This page reveals all the information about the entity.",
+  "btn_save": "Save",
+  "btn_cancel": "Cancel",
+  "text_validate": "This fiels is requierd",
+  "number_validate": "This fiels is required & > 0"
+}
