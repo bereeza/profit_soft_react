@@ -4,6 +4,7 @@
   "page.default": "Home",
   "page.login": "Login",
   "page.secret": "Secret Page",
+  "page.song_list": "Song List",
   "signIn": "Sign In",
   "signOut": "Sign Out"
 }

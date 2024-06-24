@@ -6,7 +6,7 @@ import CircularProgress from '../CircularProgress';
 const colorVariants = {
   header: 'header',
   primary: 'primary',
-  secondary: 'secondary',
+  secondary: 'secondary'
 };
 
 const variants = {
